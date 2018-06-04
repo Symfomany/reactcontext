@@ -1,6 +1,5 @@
 import React, { Component } from "react";
 import PropTypes from "prop-types";
-import Title from "./Title";
 
 class Home extends Component {
   constructor(props) {
@@ -12,7 +11,6 @@ class Home extends Component {
       <div>
         <h1>Okay {this.context.data.title}</h1>
         <p>{this.context.data.subtitle}</p>
-        <Title />
       </div>
     );
   }

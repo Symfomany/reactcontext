@@ -1,7 +1,6 @@
 const Store = {
   data: {
-    title: "Je suis Julien",
-    subtitle: "Sous titre"
+    title: "Je suis Julien"
   },
   get(key) {
     return this.data[key];
